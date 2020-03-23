@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="6" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="0.205">
+    <testcase classname="Verify List Resource API endpoint" name="Get a List of Resources" time="0.056">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[When I request List Resource with method get................................undefined
+Then list resource status should be 200.....................................undefined
+And List of Resources is displayed..........................................undefined
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Verify List Users API endpoint" name="Get a List of Users" time="0.006">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[When I request List User with method get....................................undefined
+Then list user status should be 200.........................................undefined
+And List of Users is displayed..............................................undefined
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Verify Single Resource API endpoint" name="Get a Single Resource" time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[When I request Single Resource with method get..............................undefined
+Then single resource status should be 200...................................undefined
+And Single Resource is displayed............................................undefined
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Verify Single Resource Not Found API endpoint" name="Get a Single Resource Not Found" time="0.005">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[When I request Single Resource Not Found with method get....................undefined
+Then resource status should be 404..........................................undefined
+And resource body is empty..................................................undefined
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Verify Single User API endpoint" name="Get a Single User" time="0.004">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[When I request Single User with method get..................................undefined
+Then single user status should be 200.......................................undefined
+And Single User is displayed................................................undefined
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Verify Single User Not Found API endpoint" name="Get a Single User Not Found" time="0.004">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[When I request Single User Not Found with method get........................undefined
+Then list user not found status should be 404...............................undefined
+And list user body is empty.................................................undefined
+]]>
+        </failure>
+    </testcase>
+</testsuite>

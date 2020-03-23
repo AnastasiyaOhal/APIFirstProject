@@ -1,0 +1,6 @@
+file:src/test/resources/GetReqres/SingleUser.feature:4
+file:src/test/resources/GetReqres/SingleResourceNotFound.feature:4
+file:src/test/resources/GetReqres/SingleResource.feature:4
+file:src/test/resources/GetReqres/ListUsers.feature:4
+file:src/test/resources/GetReqres/ListResource.feature:4
+file:src/test/resources/GetReqres/SingleUserNotFound.feature:4

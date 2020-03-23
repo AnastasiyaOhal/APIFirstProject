@@ -1,0 +1,326 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-23T20:40:37.613Z",
+        "line": 4,
+        "name": "Get a List of Resources",
+        "description": "",
+        "id": "verify-list-resource-api-endpoint;get-a-list-of-resources",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I request List Resource with method get",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "list resource status should be 200",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "List of Resources is displayed",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      }
+    ],
+    "name": "Verify List Resource API endpoint",
+    "description": "",
+    "id": "verify-list-resource-api-endpoint",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/GetReqres/ListResource.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-23T20:40:37.685Z",
+        "line": 4,
+        "name": "Get a List of Users",
+        "description": "",
+        "id": "verify-list-users-api-endpoint;get-a-list-of-users",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I request List User with method get",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "list user status should be 200",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "List of Users is displayed",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      }
+    ],
+    "name": "Verify List Users API endpoint",
+    "description": "",
+    "id": "verify-list-users-api-endpoint",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/GetReqres/ListUsers.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-23T20:40:37.696Z",
+        "line": 4,
+        "name": "Get a Single Resource",
+        "description": "",
+        "id": "verify-single-resource-api-endpoint;get-a-single-resource",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I request Single Resource with method get",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "single resource status should be 200",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Single Resource is displayed",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Single Resource API endpoint",
+    "description": "",
+    "id": "verify-single-resource-api-endpoint",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/GetReqres/SingleResource.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-23T20:40:37.705Z",
+        "line": 4,
+        "name": "Get a Single Resource Not Found",
+        "description": "",
+        "id": "verify-single-resource-not-found-api-endpoint;get-a-single-resource-not-found",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I request Single Resource Not Found with method get",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "resource status should be 404",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "resource body is empty",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Single Resource Not Found API endpoint",
+    "description": "",
+    "id": "verify-single-resource-not-found-api-endpoint",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/GetReqres/SingleResourceNotFound.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-23T20:40:37.716Z",
+        "line": 4,
+        "name": "Get a Single User",
+        "description": "",
+        "id": "verify-single-user-api-endpoint;get-a-single-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I request Single User with method get",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "single user status should be 200",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Single User is displayed",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Single User API endpoint",
+    "description": "",
+    "id": "verify-single-user-api-endpoint",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/GetReqres/SingleUser.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-23T20:40:37.725Z",
+        "line": 4,
+        "name": "Get a Single User Not Found",
+        "description": "",
+        "id": "verify-single-user-not-found-api-endpoint;get-a-single-user-not-found",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I request Single User Not Found with method get",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "list user not found status should be 404",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "list user body is empty",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Single User Not Found API endpoint",
+    "description": "",
+    "id": "verify-single-user-not-found-api-endpoint",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/GetReqres/SingleUserNotFound.feature",
+    "tags": []
+  }
+]
